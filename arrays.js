@@ -52,16 +52,47 @@ fruits = ["apple", "banana", "lemon"]
 // console.log(listOfFruits.length)
 // console.log("removed item: ", removedItem)
 
-let listOfFruits = ["apple", "banana", "mango"]
+// let listOfFruits = ["apple", "banana", "mango"]
 // for(let i = 0; i < listOfFruits.length; i++){
 //     console.log("Start...")
 //     console.log(i, listOfFruits[i])
 //     console.log("...end")
 // }
 
-let lenFruits = listOfFruits.length
-let start = 0
-while(start < lenFruits){
-    console.log(listOfFruits[start])
-    start++
-}
+// let lenFruits = listOfFruits.length
+// let start = 0
+// while(start < lenFruits){
+//     console.log(listOfFruits[start])
+//     start++
+// }
+// Arrays cont....
+
+let distances = [51, 30, 10, 90, 7, 3, 35]
+let n = distances.length
+let lastItem = n - 1
+
+// distances.find((distance,i) => {
+//     if(distance == 30){
+//         console.log(i)
+//     }else{
+//         console.log("Distance not found")
+//     }
+// })
+
+// let oddDistances = distances.map((distance) =>{
+
+//         return !(distance % 2 == 0)
+    
+// })
+
+// console.log(oddDistances)
+// console.log(distances)
+
+
+let multipleDistances = []
+distances.forEach((distance) => {
+    let product = distance * 2
+    multipleDistances.push(product)
+})
+
+console.log(multipleDistances)
