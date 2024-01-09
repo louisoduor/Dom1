@@ -13,6 +13,6 @@ document.getElementById("add_btn").addEventListener("click", function(event){
             li.textContent = todo.name
             ordered_list.appendChild(li)
         });
-       
+
    })
 })
